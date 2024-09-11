@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Galaxy Inventory Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid d-flex justify-content-center bg-white bg-gradient py-1  ">
+        <div class="d-flex text-center">
+            <div> <img src="images/logo.png" class=" img-fluid rounded"></div>
+            <header class="text-center">
+                <h1 class="display-6 text-decoration-underline  fw-bold "> Galaxy Freightline Inc. </h1>
+                <p class="fs-4">1580 BRITANNIA ROAD EAST MISSISSAUGA, ON L4W 1J2</p>
+            </header>
+
+        </div>
+    </div>
+    <div class="container ">
+<div class="row ">    
+   <a href="home.html"> <div class="col-3  mt-5 text-light text-decoration-underline "> Back</div></a>
+    <div class="col-12"><h1 class="text-light mt-4 text-center">Galaxy Inventory Form (Mississauga)</h1></div>
+</div>
+</div>
+    <section class="container my-2 w-50 text-light py-4 my-4 rounded">
+
+       
+        <form class="row g-3 bg-gradient p-4 rounded " method="POST" action="" name="contact-form">
+            <div> <span class="bg-dark p-1 rounded" style="width:fit-content; ">All Fields Are Mandatory <span
+                        class="text-danger fs-4"> *</span></span></div>
+            <!--------------------------------------- Line 1-------------------------- -------->
+            <div class="col-md-3">
+
+                <label for="validationDefault01" class="form-label">Asset ID </label>
+                <input type="text" class="form-control" id="validationDefault01" placeholder=" Type Here"
+                    name="Assetid" required >
+            </div>
+            <div class="col-md-3">
+                <label for="validationDefault01" class="form-label">Asset Type</label>
+                <select class=" form-control form-select form-select-sm p-2" aria-label="" placeholder="Type Here"
+                    name="Assettype" required>
+                    <option selected>Select Type</option>
+                    <option value="Desktop">Desktop</option>
+                    <option value="Laptop">Laptop</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label for="validationDefault02" class="form-label">Qty</label>
+                <input type="text" class="form-control" id="validationDefault02" placeholder="Type Here" name="Qty" required>
+            </div>
+            <div class="col-md-3">
+                <label for="validationDefaultUsername" class="form-label">Serial No.</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="validationDefaultUsername"
+                        aria-describedby="inputGroupPrepend2" name="Srno" placeholder="Type Here" required>
+                </div>
+            </div>
+
+            <!--------------------------------------- Line 2-------------------------- -------->
+            <div class="col-md-3">
+                <label for="validationDefault01" class="form-label">Make / Model</label>
+                <input type="text" class="form-control" id="validationDefault01" placeholder="Type Here" name="Make" required>
+            </div>
+            <div class="col-md-3">
+                <label for="validationDefault01" class="form-label">Processor Type</label>
+                <select class=" form-control form-select form-select-sm p-2" aria-label="" placeholder="Type Here"
+                    name="Processor" required>
+                    <option selected>Select Type</option>
+                    <option value="2 GB">Intel C2D / DC</option>
+                    <option value="4 GB">Intel i3</option>
+                    <option value="6 GB">Intel i5</option>
+                    <option value="8 GB">Intel i7</option>
+                    <option value="12 GB">Intel i9</option>
+                  
+                  
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label for="validationDefault02" class="form-label">RAM </label>
+                <select class=" form-control form-select form-select-sm p-2" aria-label="" placeholder="Type Here"
+                    name="RAM" required>
+                    <option selected>Select Type</option>
+                    <option value="2 GB">2 GB</option>
+                    <option value="4 GB">4 GB</option>
+                    <option value="6 GB">6 GB</option>
+                    <option value="8 GB">8 GB</option>
+                    <option value="12 GB">12 GB</option>
+                    <option value="16 GB">16 GB </option>
+                    <option value="20 GB">20 GB</option>
+                    <option value="24 GB">24 GB</option>
+                    <option value="28 GB">28 GB</option>
+                    <option value="32 GB">32 GB</option>
+                    <option value="64 GB">64 GB</option>
+                    <option value="96 GB">96 GB</option>
+                    <option value="100 GB">100 GB</option>
+                    <option value="108 GB">108 GB</option>
+                    <option value="128 GB">128 GB</option>
+                    <option value="256 GB">256 GB</option>
+                  
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label for="validationDefaultUsername" class="form-label">StorageCapacity</label>
+                <div class="input-group">
+                    <select class=" form-control form-select form-select-sm p-2" aria-label="" placeholder="Type Here"
+                    name="storage" required>
+                    <option selected>Select Type</option>
+                    <option value="128 GB SSD">128 GB SSD</option>
+                    <option value="256 GB SSD">256 GB SSD</option>
+                    <option value="512 GB SSD">512 GB SSD</option>
+                    <option value="1 TB SSD">1 TB SSD</option>
+                    <option value="500 GB SATA">500 GB SATA</option>
+                    <option value="1 TB SATA">1 TB SATA</option>
+                    <option value="2 TB SATA">2 TB SATA</option>
+                  
+                </select>
+                </div>
+            </div>
+
+            <!--------------------------------------- Line 3-------------------------- -------->
+            <div class="col-md-3">
+                <label for="validationDefault01" class="form-label">Operating System</label>
+                <select class=" form-control form-select form-select-sm p-2" aria-label="" placeholder="Type Here"
+                    name="OperatingSystem">
+                    <option selected>Select Type</option>
+                    <option value="Win 7 Home">Win 7 Home</option>
+                    <option value="Win 7 Enterprise">Win 7 Enterprise</option>
+                    <option value="Win 7 Professional">Win 7 Professional</option>
+                    <option value="Win 10 Home">Win 10 Home</option>
+                    <option value="Win 10 Enterprise">Win 10 Enterprise</option>
+                    <option value="Win 10 Professional">Win 10 Professional</option>
+                    <option value="Win 11 Home">Win 11 Home</option>
+                    <option value="Win 11 Enterprise">Win 11 Enterprise</option>
+                    <option value="Win 11 Professional">Win 11 Professional</option>
+                </select>
+            </div>
+            </div>
+            <div class="col-md-4">
+                <label for="validationDefault01" class="form-label">License Key</label>
+                <input type="text" class="form-control" id="validationDefault01" placeholder="Type Here"
+                    name="Licensekey">
+            </div>
+            <div class="col-md-3">
+                <label for="validationDefault01" class="form-label">Country / State</label>
+                <select class=" form-control form-select form-select-sm p-2" aria-label="" placeholder="Type Here"
+                    name="Location">
+                    <option selected>Select Type</option>
+                    <option value="Mississauga - CA">Mississauga - CA</option>
+                    <!-- <option value="Calgary - CA">Calgary - CA</option> -->
+                    <!-- <option value="British Colombia - CA">British Colombia - CA</option> -->
+                    <!-- <option value="Montreal - CA">Montreal - CA</option> -->
+                    <!-- <option value="Amritsar - IN">Amritsar - IN</option> -->
+                    <!-- <option value="Chicago - USA">Chicago - USA</option> -->
+                </select>
+            </div>
+            <!-- <div class="col-md-3">
+    <label for="validationDefaultUsername" class="form-label">Storage Capacity</label>
+    <div class="input-group">
+        <input type="text" class="form-control" id="validationDefaultUsername"
+            aria-describedby="inputGroupPrepend2" >
+    </div> -->
+            </div>
+            <div class="row g-3">
+                <h4 class="text-decoration-underline"> User and Software Details :-</h4>
+                <div class="col-md-4">
+                    <label for="inputEmail4" class="form-label">Assigned User</label>
+                    <input type="text" class="form-control" id="validationDefault01" placeholder="Type Here"
+                        name="AssignedUser">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">User Email ID</label>
+                    <input type="text" class="form-control" id="validationDefault01" placeholder="Type Here"
+                        name="EmailId">
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-3">
+                    <label for="inputEmail4" class="form-label">MS Office</label>
+                    <input type="text" class="form-control" id="validationDefault01" placeholder="Type Here"
+                        name="MSOffice">
+                </div>
+                <div class="col-3">
+                    <label for="inputAddress2" class="form-label">Fleet Manager</label>
+                    <select class=" form-control form-select form-select-sm p-2" aria-label="" placeholder="Type Here"
+                        name="Fleet">
+                        <option selected>Select Type</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="inputAddress2" class="form-label">Load Link</label>
+                    <select class=" form-control form-select form-select-sm p-2" aria-label="" placeholder="Type Here"
+                        name="LoadLink">
+                        <option selected>Select Type</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="inputAddress2" class="form-label">Anti Virus</label>
+                    <select class=" form-control form-select form-select-sm p-2" aria-label="" placeholder="Type Here"
+                        name="Antivirus">
+                        <option selected>Select Type</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label for="inputAddress2" class="form-label">Printer</label>
+                    <select class=" form-control form-select form-select-sm p-2" aria-label="" placeholder="Type Here"
+                        name="Printer">
+                        <option selected>Select Type</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+
+                    </select>
+                </div>
+                <div class="col-3">
+                    <label for="inputAddress2" class="form-label">Adobe</label>
+                    <select class=" form-control form-select form-select-sm p-2" aria-label="" vplaceholder="Type Here"
+                        name="Adobe">
+                        <option selected>Select Type</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+
+                    </select>
+
+                </div>
+            </div>
+
+            </div>
+            <div class="col-12">
+                <label for="inputAddress2" class="form-label">Remarks (If Any)</label>
+                <input type="text" class="form-control" id="validationDefault01" placeholder="Type Here (Optional If Any)" name="Remarks">
+
+            </div>
+            </div>
+            <div class="col-12 text-center">
+                <input type="submit" class="btn btn-danger " id="submit"></input>
+            </div>
+
+        </form>
+        <script src="googlesheet.js"></script>
+    </section>
+
+    <div class="container-fluid bg-white">
+        <section class="text-center p-2 text-dark">
+            <footer>Copyright © 2020 Galaxy Freightline Inc. All Rights Reserved.</footer>
+        </section>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
